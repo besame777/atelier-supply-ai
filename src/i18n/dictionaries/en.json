@@ -1,0 +1,530 @@
+{
+  "common": {
+    "brand": "Atelier Supply",
+    "tagline": "Interior procurement and China sourcing for furniture, lighting and decor",
+    "meta": {
+      "title": "Atelier Supply — Interior Procurement & China Sourcing",
+      "description": "Premium interior procurement: furniture, lighting and decor sourced directly from China's leading factories. A preliminary estimate in minutes; the final quote is manager-reviewed."
+    },
+    "nav": {
+      "home": "Home",
+      "ai": "AI Assistant",
+      "projects": "Projects",
+      "services": "Services",
+      "process": "Process",
+      "about": "About",
+      "contacts": "Contact",
+      "dashboard": "Dashboard"
+    },
+    "cta": {
+      "start": "Preliminary estimate",
+      "openAi": "Open the AI Assistant",
+      "contactUs": "Contact us",
+      "viewAll": "All projects",
+      "learnMore": "Learn more",
+      "back": "Back",
+      "next": "Next",
+      "submit": "Submit"
+    },
+    "preliminaryBadge": "Preliminary estimate",
+    "preliminaryNote": "Every amount, line-up and timeline in this report is a preliminary estimate. The final quote is prepared after an Atelier Supply manager reviews the project and selects suppliers.",
+    "footer": {
+      "description": "Atelier Supply is a premium interior procurement practice: furniture, lighting and decor sourced directly from China's leading factories — with quality control, logistics and support through to installation.",
+      "navigation": "Navigation",
+      "company": "Company",
+      "contacts": "Contact",
+      "rights": "All rights reserved."
+    }
+  },
+  "home": {
+    "meta": { "title": "Premium interior procurement with a preliminary AI estimate" },
+    "hero": {
+      "eyebrow": "Interior procurement · China sourcing",
+      "title": "A premium interior. Direct from China's finest factories",
+      "subtitle": "Upload a design project or a photo of your room — the AI assistant prepares a preliminary estimate of budget, line-up and timeline in minutes. The final quote follows a review by an Atelier Supply manager.",
+      "primaryCta": "Get a preliminary estimate",
+      "secondaryCta": "View projects",
+      "stats": [
+        { "value": "300+", "label": "vetted factories in our active base" },
+        { "value": "30–50%", "label": "saved versus retail at equal quality" },
+        { "value": "8–16 weeks", "label": "production and delivery to site" }
+      ]
+    },
+    "scenarios": {
+      "title": "Two paths to the same result",
+      "subtitle": "Start with what you already have — a finished design project or an empty room.",
+      "project": {
+        "title": "I have a design project",
+        "text": "Upload your project or specification — the assistant maps the line-up room by room and prepares a preliminary China sourcing estimate.",
+        "cta": "Upload a project"
+      },
+      "room": {
+        "title": "I have an empty room",
+        "text": "Upload a photo or enter the dimensions — the assistant proposes a concept, a furniture list and a preliminary budget estimate.",
+        "cta": "Describe a room"
+      }
+    },
+    "whyChina": {
+      "title": "Why China sourcing",
+      "subtitle": "The world's leading brands manufacture in China. We work with the same factories — directly, with no intermediaries.",
+      "items": [
+        { "title": "Factory price, not showroom price", "text": "Direct contracts with manufacturers deliver 30–50% savings versus retail at comparable quality." },
+        { "title": "Every quality tier", "text": "From sensible mid-range to factories producing furniture for European luxury houses." },
+        { "title": "Made to your project", "text": "Dimensions, materials and finishes are produced to your project — not picked from warehouse stock." },
+        { "title": "Quality control on the ground", "text": "Our team in China inspects every batch before shipment: inspections, photo and video reports, packaging control." }
+      ]
+    },
+    "how": {
+      "title": "How it works",
+      "subtitle": "A transparent process — from project upload to furniture placed on site.",
+      "steps": [
+        { "title": "Project or room", "text": "Upload a design project, a specification, or simply the room dimensions." },
+        { "title": "Preliminary estimate", "text": "The AI assistant prepares the line-up and a budget and timeline guide in minutes." },
+        { "title": "Manager review", "text": "A manager refines the details, selects suppliers and prepares the final quote." },
+        { "title": "Procurement and delivery", "text": "Production, inspections, logistics and support through to your site." }
+      ],
+      "cta": "See the full process"
+    },
+    "projects": {
+      "title": "Selected projects",
+      "subtitle": "Procurement we have delivered for homeowners, designers and architects."
+    },
+    "homeowners": {
+      "eyebrow": "For homeowners",
+      "title": "The interior you had in mind — without the brand markup",
+      "text": "The same calibre of furniture and lighting you find in high-end showrooms — direct from the factories. Selection, verification, purchasing, logistics and customs are on us.",
+      "points": [
+        "Preliminary estimate — free, with no obligations",
+        "A personal manager at every stage",
+        "Every batch inspected before shipment"
+      ],
+      "cta": "Estimate my interior"
+    },
+    "designers": {
+      "eyebrow": "For designers & architects",
+      "title": "A procurement partner that delivers on site",
+      "text": "Hand over your specification — receive matched alternatives, prices and timelines. Transparent partner terms and unified paperwork for studios and practices.",
+      "points": [
+        "Alternatives matched to your specification",
+        "Partner commission and priority timelines",
+        "Full project reporting for your client"
+      ],
+      "cta": "Terms for designers"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "The essentials on pricing, timelines, quality and guarantees."
+    },
+    "contact": {
+      "title": "Shall we discuss your project?",
+      "text": "Get a preliminary estimate right now — or write to us and a manager will reply within one business day.",
+      "cta": "Get a preliminary estimate"
+    }
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "Is this an exact quote?",
+        "a": "No. The AI assistant prepares a preliminary estimate — a guide to budget, line-up and timeline. The final quote is prepared after a manager reviews the project and selects suppliers, and only that quote forms the basis of a contract."
+      },
+      {
+        "q": "How much does the preliminary estimate cost?",
+        "a": "It is free and carries no obligations. Commitments begin only once the final quote is agreed and the contract is signed."
+      },
+      {
+        "q": "What is the quality of furniture from China?",
+        "a": "We work exclusively with vetted factories — from solid mid-range to facilities producing for European luxury houses. Every batch is inspected before shipment."
+      },
+      {
+        "q": "What are the production and delivery timelines?",
+        "a": "Typically 8–16 weeks, depending on the order line-up, production complexity and delivery destination. A timeline guide appears in the preliminary estimate."
+      },
+      {
+        "q": "Do you work with designers and architects?",
+        "a": "Yes — it is a dedicated practice: alternatives matched to your specification, partner commission, a single contract and full project reporting."
+      },
+      {
+        "q": "What about warranty and defects?",
+        "a": "Before shipment — inspections with photo and video reports. Warranty, cargo insurance and replacement terms are fixed in the contract and the final quote."
+      }
+    ]
+  },
+  "ai": {
+    "meta": { "title": "AI Assistant — a preliminary interior estimate" },
+    "intro": {
+      "eyebrow": "Atelier Supply AI Assistant",
+      "title": "A preliminary estimate for your interior",
+      "subtitle": "Choose a scenario — the assistant guides you through the steps and prepares a preliminary report. It is a guide, not a final quote: exact prices are confirmed by a manager."
+    },
+    "scenarios": {
+      "title": "Where shall we begin?",
+      "project": {
+        "title": "Finished design project",
+        "text": "You have a project, specification or renders — we estimate the procurement and China sourcing.",
+        "bullets": ["PDF, JPG, PNG, ZIP", "Line-up by room and category", "Budget and timeline guide"],
+        "cta": "Start with a project"
+      },
+      "room": {
+        "title": "Empty room",
+        "text": "Choose a style and palette — AI will prepare a concept, furniture list, and a preliminary estimate.",
+        "bullets": ["Redesign from a photo or generate from parameters", "AI room visualization in your chosen style", "Furniture list and preliminary estimate"],
+        "cta": "Create a room design"
+      }
+    },
+    "wizard": {
+      "back": "Back",
+      "next": "Next",
+      "restart": "Start over",
+      "toLead": "Get the final quote",
+      "projectSteps": ["Files", "Project details", "AI report", "Contact"],
+      "roomSteps": ["Room", "Details", "AI concept", "Contact"]
+    },
+    "upload": {
+      "projectTitle": "Upload your project materials",
+      "projectHint": "Design project, specification, renders or a measured survey.",
+      "projectFormats": "PDF, JPG, PNG, ZIP · up to 50 MB",
+      "roomTitle": "Upload a photo of the room",
+      "roomHint": "1–5 photos of the room from different angles.",
+      "roomFormats": "JPG, PNG · up to 20 MB",
+      "button": "Choose files",
+      "selected": "Files selected:",
+      "note": "In this version files are not uploaded to a server — this is an interface preview.",
+      "continue": "Continue",
+      "continueRedesign": "Continue with photo redesign",
+      "continueManually": "Continue without a photo"
+    },
+    "projectForm": {
+      "title": "Project details",
+      "objectType": "Property type",
+      "objectTypes": [
+        { "value": "apartment", "label": "Apartment" },
+        { "value": "house", "label": "House / villa" },
+        { "value": "hotel", "label": "Hotel / aparthotel" },
+        { "value": "office", "label": "Office / commercial space" },
+        { "value": "restaurant", "label": "Restaurant / café" }
+      ],
+      "area": "Area, m²",
+      "city": "Delivery city and country",
+      "cityPlaceholder": "e.g. Moscow, Russia",
+      "budget": "Budget range",
+      "budgets": [
+        { "value": "lt25", "label": "Under $25,000" },
+        { "value": "25-60", "label": "$25,000 – $60,000" },
+        { "value": "60-150", "label": "$60,000 – $150,000" },
+        { "value": "gt150", "label": "Over $150,000" }
+      ],
+      "quality": "Quality tier",
+      "qualities": [
+        { "value": "economy", "label": "Sensible", "desc": "Fair prices, reliable factories" },
+        { "value": "balanced", "label": "Optimal", "desc": "The best price-to-quality balance" },
+        { "value": "premium", "label": "Premium", "desc": "Luxury factories and materials" }
+      ],
+      "deadline": "Desired timeline",
+      "deadlines": [
+        { "value": "asap", "label": "As soon as possible" },
+        { "value": "2-3m", "label": "2–3 months" },
+        { "value": "3-6m", "label": "3–6 months" },
+        { "value": "flexible", "label": "Flexible — quality first" }
+      ],
+      "comment": "Comments",
+      "commentPlaceholder": "Preferences, reference brands, constraints…",
+      "submit": "Run the AI analysis"
+    },
+    "roomForm": {
+      "title": "Room details",
+      "roomType": "Room type",
+      "roomTypes": [
+        { "value": "living", "label": "Living room" },
+        { "value": "bedroom", "label": "Bedroom" },
+        { "value": "kitchen", "label": "Kitchen / dining" },
+        { "value": "office", "label": "Home office" },
+        { "value": "kids", "label": "Kids' room" },
+        { "value": "bathroom", "label": "Bathroom" }
+      ],
+      "length": "Length, m",
+      "width": "Width, m",
+      "height": "Ceiling height, m",
+      "windows": "Windows",
+      "doors": "Doors",
+      "constraints": "Constraints",
+      "constraintsPlaceholder": "e.g. the radiator cannot be moved, storage is needed…",
+      "style": "Interior style",
+      "styleHint": "Choose a style — AI will prepare a visual room concept.",
+      "styles": [
+        { "value": "modern", "label": "Modern", "desc": "Clean lines, a calm base, statement pieces" },
+        { "value": "minimalist", "label": "Minimalist", "desc": "Maximum air and built-in storage" },
+        { "value": "japandi", "label": "Japandi", "desc": "Natural materials and warm minimalism" },
+        { "value": "classic", "label": "Premium Classic", "desc": "Symmetry, marble, brass and deep tones" },
+        { "value": "luxury", "label": "Contemporary Luxury", "desc": "Refined materials and scenic lighting" },
+        { "value": "loft", "label": "Loft", "desc": "Open space and raw textures" },
+        { "value": "boutique", "label": "Boutique Hotel", "desc": "A boutique-hotel feel: comfort and detail" },
+        { "value": "light-european", "label": "Light European", "desc": "A light base, linen and natural light" }
+      ],
+      "palette": "Colour palette",
+      "paletteHint": "Choose a palette — AI sets the concept's colour direction.",
+      "palettes": [
+        { "value": "warm-neutral", "label": "Warm Neutral", "desc": "Beige, sand and warm walnut" },
+        { "value": "light-greige", "label": "Light Greige", "desc": "Light greige and cocoa" },
+        { "value": "walnut-cream", "label": "Walnut & Cream", "desc": "A cream base and warm wood" },
+        { "value": "graphite-beige", "label": "Graphite & Beige", "desc": "Warm beige with graphite accents" },
+        { "value": "olive-sand", "label": "Olive & Sand", "desc": "Natural olive and sand tones" },
+        { "value": "mocha-stone", "label": "Mocha & Stone", "desc": "Stone shades and deep mocha" },
+        { "value": "light-european", "label": "Light European", "desc": "Ivory, linen and soft taupe" },
+        { "value": "dark-contemporary", "label": "Dark Contemporary", "desc": "Warm sand and deep charcoal" }
+      ],
+      "budget": "Budget range",
+      "budgets": [
+        { "value": "lt10", "label": "Under $10,000" },
+        { "value": "10-25", "label": "$10,000 – $25,000" },
+        { "value": "25-50", "label": "$25,000 – $50,000" },
+        { "value": "gt50", "label": "Over $50,000" }
+      ],
+      "city": "Delivery city and country",
+      "cityPlaceholder": "e.g. Almaty, Kazakhstan",
+      "submit": "Run the AI analysis"
+    },
+    "analyzing": {
+      "titleProject": "The assistant is analysing your project",
+      "titleRoom": "The assistant is shaping your room concept",
+      "lines": [
+        "Mapping rooms and line-up…",
+        "Selecting furniture and lighting categories…",
+        "Assessing the China sourcing strategy…",
+        "Preparing the preliminary estimate…"
+      ],
+      "note": "This usually takes under a minute."
+    },
+    "report": {
+      "estimateTitle": "Preliminary project report",
+      "conceptTitle": "AI concept and preliminary estimate",
+      "paletteLabel": "Palette",
+      "disclaimerTitle": "Please note",
+      "cta": "Get the manager-reviewed final quote"
+    },
+    "designPreview": {
+      "badge": "preliminary visualization",
+      "conceptTitle": "AI room concept",
+      "procurementTitle": "Procurement analysis preview",
+      "note": "This visualization is a preliminary concept. Final design and quote are reviewed by an Atelier Supply manager.",
+      "procurementNote": "A preliminary procurement analysis of your project. The final quote is reviewed by an Atelier Supply manager.",
+      "styleLabel": "Style",
+      "roomLabel": "Room",
+      "areaLabel": "Area"
+    },
+    "roomConcept": {
+      "badge": "Preliminary visualization",
+      "visualizationTitle": "AI room visualization",
+      "originalTitle": "Original room photo",
+      "redesignMode": "Redesign from room photo",
+      "paramsMode": "Generate from room parameters",
+      "conceptLabel": "Concept",
+      "styleLabel": "Style",
+      "paletteLabel": "Palette",
+      "areaLabel": "Area",
+      "roomLabel": "Room",
+      "assumptionsTitle": "What this concept considers",
+      "note": "This is a preliminary visualization, not a final design. Final design and quote are reviewed by an Atelier Supply manager.",
+      "variantLabel": "Option",
+      "regenerate": "Show another option",
+      "regenerating": "Generating another version…"
+    },
+    "generation": {
+      "generatingTitle": "Generating AI visualization",
+      "errorTitle": "Could not create visualization",
+      "errorText": "Something went wrong while generating. Please try again.",
+      "retry": "Try again",
+      "fallbackNotice": "OpenAI is unavailable, showing demo option",
+      "aiVisualization": "Preliminary AI visualization",
+      "demoMode": "Demo mode"
+    },
+    "analysis": {
+      "title": "What is visible in the visualization",
+      "furniture": "Furniture",
+      "lighting": "Lighting",
+      "decor": "Decor",
+      "materials": "Materials",
+      "added": "What was added to the concept",
+      "changed": "What changed"
+    },
+    "estimate": {
+      "title": "Preliminary estimate",
+      "specification": "Indicative specification",
+      "furniture": "Furniture",
+      "lighting": "Lighting",
+      "decor": "Decor",
+      "disclaimer": "This is a preliminary estimate based on the AI visualization. The final quote depends on selected factories, materials, logistics, and is reviewed by an Atelier Supply manager."
+    },
+    "limits": {
+      "sessionReached": "The preliminary AI visualization limit for this session has been reached. Please try again later or contact a manager.",
+      "regenReached": "Up to 3 variants are available for one concept."
+    },
+    "lead": {
+      "title": "The final quote is manager-reviewed",
+      "subtitle": "Leave your details — an Atelier Supply manager will verify the estimate, clarify the specifics and prepare a personal quote with fixed prices and timelines.",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "messenger": "Telegram / WhatsApp",
+      "messengerPlaceholder": "@username or number",
+      "method": "Preferred contact method",
+      "methods": [
+        { "value": "telegram", "label": "Telegram" },
+        { "value": "whatsapp", "label": "WhatsApp" },
+        { "value": "phone", "label": "Phone call" },
+        { "value": "email", "label": "Email" }
+      ],
+      "submit": "Send request",
+      "successTitle": "Request sent",
+      "successText": "Thank you. An Atelier Supply manager will contact you within one business day and prepare the final quote based on your preliminary estimate."
+    }
+  },
+  "projectsPage": {
+    "meta": { "title": "Projects" },
+    "title": "Our projects",
+    "subtitle": "Interior procurement delivered with China's factories — from apartments and villas to boutique hotels.",
+    "location": "Location",
+    "area": "Area",
+    "budget": "Procurement budget",
+    "duration": "Delivery time",
+    "aboutTitle": "About the project",
+    "scopeTitle": "Procurement scope",
+    "ctaTitle": "After a similar result?",
+    "ctaText": "Get a preliminary estimate for your project — free, with no obligations.",
+    "cta": "Get a preliminary estimate",
+    "back": "All projects"
+  },
+  "servicesPage": {
+    "meta": { "title": "Services" },
+    "title": "Services",
+    "subtitle": "The full interior procurement cycle — from selection and production to delivery and placement on site.",
+    "items": [
+      { "title": "Furniture sourcing from China", "text": "Factory selection, made-to-project production, purchasing and deal management. Case goods and upholstery at every level." },
+      { "title": "Lighting and decor procurement", "text": "Chandeliers, floor lamps, textiles, rugs, mirrors and objects from vetted manufacturers." },
+      { "title": "Full FF&E procurement", "text": "Complete project supply — furniture, lighting, decor, sanitary ware — as one project with a single owner." },
+      { "title": "Alternative selection for design projects", "text": "Alternatives to your specification items with 30–50% savings at comparable quality and materials." },
+      { "title": "Logistics and delivery management", "text": "Consolidation at a warehouse in China, insurance, customs clearance and delivery to site." },
+      { "title": "Quality control and factory relations", "text": "Pre-shipment inspections, photo and video reports, packaging and schedule control. We negotiate in Chinese." },
+      { "title": "For designers and architects", "text": "A partner programme: commission, priority timelines, unified paperwork and reporting for your clients." }
+    ],
+    "ctaTitle": "Not sure which format fits?",
+    "ctaText": "Start with a preliminary estimate — it maps the line-up, budget and timeline, and a manager will suggest the right format.",
+    "cta": "Get a preliminary estimate"
+  },
+  "processPage": {
+    "meta": { "title": "Process" },
+    "title": "How we work",
+    "subtitle": "Eight transparent stages — from the first estimate to furniture placed on site.",
+    "steps": [
+      { "title": "Project or room", "text": "You share a design project, a specification, or simply photos and room dimensions." },
+      { "title": "Preliminary AI analysis", "text": "The assistant maps the line-up and categories and prepares a budget and timeline guide." },
+      { "title": "Manager review", "text": "A manager validates the estimate, refines the details and agrees the project scope with you." },
+      { "title": "Supplier sourcing", "text": "We request factory pricing and gather samples and alternatives for the project's quality tier." },
+      { "title": "Final quote", "text": "Items, prices, timelines and terms are fixed. Commitments begin only at this stage." },
+      { "title": "Payment and procurement", "text": "We place orders with the factories and track the production schedule of every item." },
+      { "title": "Quality control", "text": "Inspections at the factories and the consolidation warehouse, with photo and video reports before shipment." },
+      { "title": "Delivery and placement", "text": "Customs, delivery to site, and support through acceptance, assembly and placement." }
+    ],
+    "note": "Stages 1–2 are free and carry no obligations. Every figure before the final quote is a preliminary estimate."
+  },
+  "aboutPage": {
+    "meta": { "title": "About" },
+    "title": "Atelier Supply",
+    "subtitle": "Connecting premium interior projects with China's manufacturing capability.",
+    "paragraphs": [
+      "Atelier Supply grew out of high-end interior procurement practice. The same factories make furniture for global brands and for those who know how to work with them directly. We built that direct access — with inspections, contracts and predictable logistics.",
+      "Our team works across Russia and China: buyers, quality engineers, logistics specialists and project managers. We speak the language of factories and the language of design projects — and translate between the two without losses.",
+      "The AI platform makes the first step transparent: a preliminary estimate in minutes instead of weeks of correspondence. The final quote is always confirmed by the person accountable for the result."
+    ],
+    "valuesTitle": "Our principles",
+    "values": [
+      { "title": "Honest preliminarity", "text": "We never present an estimate as a quote. Every figure before the final quote is called preliminary — because that is exactly what it is." },
+      { "title": "Quality is verified, not promised", "text": "Every batch is inspected before shipment. Photographs, video, measurements — you see what we see." },
+      { "title": "One accountable owner", "text": "A project manager guides you from the first estimate to furniture placement — never passed around." }
+    ],
+    "stats": [
+      { "value": "300+", "label": "factories in our active base" },
+      { "value": "120+", "label": "projects delivered" },
+      { "value": "6 years", "label": "of China sourcing experience" },
+      { "value": "2 offices", "label": "Moscow and Guangzhou" }
+    ]
+  },
+  "contactsPage": {
+    "meta": { "title": "Contact" },
+    "title": "Contact",
+    "subtitle": "Write to us — we reply within one business day. Or begin with a preliminary estimate.",
+    "form": {
+      "title": "Write to us",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project…",
+      "submit": "Send message",
+      "successTitle": "Message sent",
+      "successText": "Thank you. We will get back to you within one business day."
+    },
+    "channelsTitle": "Direct contacts",
+    "channels": {
+      "email": "hello@atelier-supply.ru",
+      "phone": "+7 (495) 000-00-00",
+      "telegram": "@atelier_supply",
+      "whatsapp": "+7 (900) 000-00-00",
+      "hours": "Mon–Fri, 10:00–19:00 (MSK)"
+    },
+    "labels": {
+      "email": "Email",
+      "phone": "Phone",
+      "telegram": "Telegram",
+      "whatsapp": "WhatsApp",
+      "hours": "Working hours"
+    },
+    "note": "Contact details are placeholders for the MVP."
+  },
+  "dashboardPage": {
+    "meta": { "title": "Dashboard" },
+    "title": "Dashboard",
+    "subtitle": "Projects, AI reports and statuses — in one place.",
+    "newEstimate": "New preliminary estimate",
+    "projectsTitle": "My projects",
+    "table": { "project": "Project", "status": "Status", "updated": "Updated" },
+    "projects": [
+      { "name": "Patriarshie apartment, 142 m²", "status": "Final quote", "tone": "active", "updated": "11 June 2026" },
+      { "name": "Country house, 320 m²", "status": "Supplier sourcing", "tone": "active", "updated": "8 June 2026" },
+      { "name": "Japandi living room", "status": "Preliminary estimate", "tone": "new", "updated": "2 June 2026" }
+    ],
+    "reportsTitle": "Latest AI reports",
+    "reports": [
+      { "title": "Preliminary estimate — 142 m² apartment", "type": "Design project", "date": "11 June 2026" },
+      { "title": "AI concept — 24 m² living room", "type": "Empty room", "date": "2 June 2026" }
+    ],
+    "openReport": "Open",
+    "note": "An MVP demonstration dashboard: the data is sample-only; authentication arrives later."
+  },
+  "adminPage": {
+    "meta": { "title": "Admin" },
+    "title": "Admin panel",
+    "subtitle": "Leads, projects and statuses — an overview for the Atelier Supply team.",
+    "stats": [
+      { "value": "12", "label": "new leads this week" },
+      { "value": "7", "label": "projects in progress" },
+      { "value": "3", "label": "quotes under review" },
+      { "value": "$284,000", "label": "value of active projects" }
+    ],
+    "leadsTitle": "Leads",
+    "leadsTable": { "name": "Name", "contact": "Contact", "scenario": "Scenario", "date": "Date", "status": "Status" },
+    "leads": [
+      { "name": "Anna K.", "contact": "@anna_k", "scenario": "Design project", "date": "12 June", "status": "New", "tone": "new" },
+      { "name": "Dmitry P.", "contact": "+7 916 …", "scenario": "Empty room", "date": "11 June", "status": "In progress", "tone": "active" },
+      { "name": "FORMA Studio", "contact": "hello@forma.ru", "scenario": "Design project", "date": "10 June", "status": "Quote sent", "tone": "done" },
+      { "name": "Marat I.", "contact": "@marat_i", "scenario": "Empty room", "date": "9 June", "status": "New", "tone": "new" }
+    ],
+    "projectsTitle": "Projects in progress",
+    "projectsTable": { "project": "Project", "client": "Client", "stage": "Stage", "status": "Status" },
+    "projects": [
+      { "project": "142 m² apartment, Moscow", "client": "Anna K.", "stage": "Final quote", "status": "Under review", "tone": "active" },
+      { "project": "320 m² house, Moscow region", "client": "Sergey V.", "stage": "Supplier sourcing", "status": "In progress", "tone": "active" },
+      { "project": "18-room hotel, Sochi", "client": "Hotel Group", "stage": "Production", "status": "Quality control", "tone": "done" }
+    ],
+    "note": "An MVP demonstration panel: the data is sample-only; access and roles arrive later."
+  }
+}

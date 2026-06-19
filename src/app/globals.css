@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/*
+ * Atelier Supply brand palette — warm, architectural, editorial.
+ * Tactile sand base, layered warm surfaces, deep browns, muted gold.
+ * No sterile white, no SaaS blue/purple, no nightclub dark.
+ */
+:root {
+  --background: #e8ded1; /* main background — warm sand */
+  --surface: #f4eee6; /* card background */
+  --surface-soft: #efe5da; /* soft elevated / nested card */
+  --beige: #d8c8b8; /* secondary background */
+  --sand: #d8c8b8; /* deeper tonal block */
+  --foreground: #17130f; /* main text */
+  --charcoal: #17130f; /* dark section background */
+  --brown: #2a1a12; /* deep brown */
+  --bronze: #7a4e2d; /* accent brown */
+  --muted: #5f564e; /* secondary text */
+  --accent: #a77d4f; /* muted gold */
+  --accent-soft: #c9a87c; /* gold on dark backgrounds */
+  --border: #c9b8a6;
+  --on-dark: #f6f1ea; /* text on dark sections */
+  --header: rgba(232, 222, 209, 0.86); /* sticky header — blends with background */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-soft: var(--surface-soft);
+  --color-beige: var(--beige);
+  --color-sand: var(--sand);
+  --color-foreground: var(--foreground);
+  --color-charcoal: var(--charcoal);
+  --color-brown: var(--brown);
+  --color-bronze: var(--bronze);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-border: var(--border);
+  --color-on-dark: var(--on-dark);
+  --color-header: var(--header);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "ss01", "cv11";
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--charcoal);
+}
