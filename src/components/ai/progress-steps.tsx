@@ -15,9 +15,9 @@ export function ProgressSteps({
             <span
               className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-xs font-medium transition-colors ${
                 done
-                  ? "bg-accent text-background"
+                  ? "bg-accent text-charcoal"
                   : active
-                    ? "bg-foreground text-background"
+                    ? "btn-gold"
                     : "border border-border bg-surface text-muted"
               }`}
             >

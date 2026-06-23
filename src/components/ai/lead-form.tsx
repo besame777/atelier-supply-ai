@@ -73,7 +73,7 @@ export function LeadForm({
 
       <button
         type="submit"
-        className="mt-8 w-full rounded-full bg-accent px-7 py-3.5 text-sm font-medium text-background transition-colors hover:bg-brown sm:w-auto"
+        className="mt-8 w-full rounded-full bg-accent px-7 py-3.5 text-sm font-medium text-charcoal transition-colors hover:bg-brown sm:w-auto"
       >
         {dict.submit}
       </button>

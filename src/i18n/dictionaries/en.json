@@ -8,7 +8,7 @@
     },
     "nav": {
       "home": "Home",
-      "ai": "AI Assistant",
+      "ai": "Concept",
       "projects": "Projects",
       "services": "Services",
       "process": "Process",
@@ -18,7 +18,7 @@
     },
     "cta": {
       "start": "Preliminary estimate",
-      "openAi": "Open the AI Assistant",
+      "openAi": "Open Atelier Supply Concept",
       "contactUs": "Contact us",
       "viewAll": "All projects",
       "learnMore": "Learn more",
@@ -37,11 +37,11 @@
     }
   },
   "home": {
-    "meta": { "title": "Premium interior procurement with a preliminary AI estimate" },
+    "meta": { "title": "Premium interior procurement with a preliminary estimate" },
     "hero": {
       "eyebrow": "Interior procurement · China sourcing",
       "title": "A premium interior. Direct from China's finest factories",
-      "subtitle": "Upload a design project or a photo of your room — the AI assistant prepares a preliminary estimate of budget, line-up and timeline in minutes. The final quote follows a review by an Atelier Supply manager.",
+      "subtitle": "Upload a design project or a photo of your room — the service prepares a preliminary estimate of budget, line-up and timeline in minutes. The final quote follows a review by an Atelier Supply manager.",
       "primaryCta": "Get a preliminary estimate",
       "secondaryCta": "View projects",
       "stats": [
@@ -55,12 +55,12 @@
       "subtitle": "Start with what you already have — a finished design project or an empty room.",
       "project": {
         "title": "I have a design project",
-        "text": "Upload your project or specification — the assistant maps the line-up room by room and prepares a preliminary China sourcing estimate.",
+        "text": "Upload your project or specification — the service maps the line-up room by room and prepares a preliminary China sourcing estimate.",
         "cta": "Upload a project"
       },
       "room": {
         "title": "I have an empty room",
-        "text": "Upload a photo or enter the dimensions — the assistant proposes a concept, a furniture list and a preliminary budget estimate.",
+        "text": "Upload a photo or enter the dimensions — the service proposes a concept, a furniture list and a preliminary budget estimate.",
         "cta": "Describe a room"
       }
     },
@@ -79,7 +79,7 @@
       "subtitle": "A transparent process — from project upload to furniture placed on site.",
       "steps": [
         { "title": "Project or room", "text": "Upload a design project, a specification, or simply the room dimensions." },
-        { "title": "Preliminary estimate", "text": "The AI assistant prepares the line-up and a budget and timeline guide in minutes." },
+        { "title": "Preliminary estimate", "text": "The service prepares the line-up and a budget and timeline guide in minutes." },
         { "title": "Manager review", "text": "A manager refines the details, selects suppliers and prepares the final quote." },
         { "title": "Procurement and delivery", "text": "Production, inspections, logistics and support through to your site." }
       ],
@@ -125,7 +125,7 @@
     "items": [
       {
         "q": "Is this an exact quote?",
-        "a": "No. The AI assistant prepares a preliminary estimate — a guide to budget, line-up and timeline. The final quote is prepared after a manager reviews the project and selects suppliers, and only that quote forms the basis of a contract."
+        "a": "No. The service prepares a preliminary estimate — a guide to budget, line-up and timeline. The final quote is prepared after a manager reviews the project and selects suppliers, and only that quote forms the basis of a contract."
       },
       {
         "q": "How much does the preliminary estimate cost?",
@@ -150,11 +150,11 @@
     ]
   },
   "ai": {
-    "meta": { "title": "AI Assistant — a preliminary interior estimate" },
+    "meta": { "title": "Atelier Supply Concept — a preliminary interior estimate" },
     "intro": {
-      "eyebrow": "Atelier Supply AI Assistant",
+      "eyebrow": "Atelier Supply Concept",
       "title": "A preliminary estimate for your interior",
-      "subtitle": "Choose a scenario — the assistant guides you through the steps and prepares a preliminary report. It is a guide, not a final quote: exact prices are confirmed by a manager."
+      "subtitle": "Choose a scenario — the service guides you through the steps and prepares a preliminary report. It is a guide, not a final quote: exact prices are confirmed by a manager."
     },
     "scenarios": {
       "title": "Where shall we begin?",
@@ -166,8 +166,8 @@
       },
       "room": {
         "title": "Empty room",
-        "text": "Choose a style and palette — AI will prepare a concept, furniture list, and a preliminary estimate.",
-        "bullets": ["Redesign from a photo or generate from parameters", "AI room visualization in your chosen style", "Furniture list and preliminary estimate"],
+        "text": "Choose a style and palette — the service will prepare a concept, furniture list, and a preliminary estimate.",
+        "bullets": ["Redesign from a photo or generate from parameters", "Room visualization in your chosen style", "Furniture list and preliminary estimate"],
         "cta": "Create a room design"
       }
     },
@@ -176,8 +176,8 @@
       "next": "Next",
       "restart": "Start over",
       "toLead": "Get the final quote",
-      "projectSteps": ["Files", "Project details", "AI report", "Contact"],
-      "roomSteps": ["Room", "Details", "AI concept", "Contact"]
+      "projectSteps": ["Files", "Project details", "Report", "Contact"],
+      "roomSteps": ["Room", "Details", "Concept", "Contact"]
     },
     "upload": {
       "projectTitle": "Upload your project materials",
@@ -228,7 +228,7 @@
       ],
       "comment": "Comments",
       "commentPlaceholder": "Preferences, reference brands, constraints…",
-      "submit": "Run the AI analysis"
+      "submit": "Prepare the concept"
     },
     "roomForm": {
       "title": "Room details",
@@ -249,7 +249,7 @@
       "constraints": "Constraints",
       "constraintsPlaceholder": "e.g. the radiator cannot be moved, storage is needed…",
       "style": "Interior style",
-      "styleHint": "Choose a style — AI will prepare a visual room concept.",
+      "styleHint": "Choose a style — the service will prepare a visual room concept.",
       "styles": [
         { "value": "modern", "label": "Modern", "desc": "Clean lines, a calm base, statement pieces" },
         { "value": "minimalist", "label": "Minimalist", "desc": "Maximum air and built-in storage" },
@@ -261,7 +261,7 @@
         { "value": "light-european", "label": "Light European", "desc": "A light base, linen and natural light" }
       ],
       "palette": "Colour palette",
-      "paletteHint": "Choose a palette — AI sets the concept's colour direction.",
+      "paletteHint": "Choose a palette — the service sets the concept's colour direction.",
       "palettes": [
         { "value": "warm-neutral", "label": "Warm Neutral", "desc": "Beige, sand and warm walnut" },
         { "value": "light-greige", "label": "Light Greige", "desc": "Light greige and cocoa" },
@@ -281,11 +281,11 @@
       ],
       "city": "Delivery city and country",
       "cityPlaceholder": "e.g. Almaty, Kazakhstan",
-      "submit": "Run the AI analysis"
+      "submit": "Prepare the concept"
     },
     "analyzing": {
-      "titleProject": "The assistant is analysing your project",
-      "titleRoom": "The assistant is shaping your room concept",
+      "titleProject": "The service is analysing your project",
+      "titleRoom": "The service is shaping your room concept",
       "lines": [
         "Mapping rooms and line-up…",
         "Selecting furniture and lighting categories…",
@@ -296,14 +296,14 @@
     },
     "report": {
       "estimateTitle": "Preliminary project report",
-      "conceptTitle": "AI concept and preliminary estimate",
+      "conceptTitle": "Concept and preliminary estimate",
       "paletteLabel": "Palette",
       "disclaimerTitle": "Please note",
       "cta": "Get the manager-reviewed final quote"
     },
     "designPreview": {
       "badge": "preliminary visualization",
-      "conceptTitle": "AI room concept",
+      "conceptTitle": "Room concept",
       "procurementTitle": "Procurement analysis preview",
       "note": "This visualization is a preliminary concept. Final design and quote are reviewed by an Atelier Supply manager.",
       "procurementNote": "A preliminary procurement analysis of your project. The final quote is reviewed by an Atelier Supply manager.",
@@ -313,7 +313,7 @@
     },
     "roomConcept": {
       "badge": "Preliminary visualization",
-      "visualizationTitle": "AI room visualization",
+      "visualizationTitle": "Room visualization",
       "originalTitle": "Original room photo",
       "redesignMode": "Redesign from room photo",
       "paramsMode": "Generate from room parameters",
@@ -329,12 +329,12 @@
       "regenerating": "Generating another version…"
     },
     "generation": {
-      "generatingTitle": "Generating AI visualization",
+      "generatingTitle": "Generating visualization",
       "errorTitle": "Could not create visualization",
       "errorText": "Something went wrong while generating. Please try again.",
       "retry": "Try again",
-      "fallbackNotice": "OpenAI is unavailable, showing demo option",
-      "aiVisualization": "Preliminary AI visualization",
+      "fallbackNotice": "The generator is temporarily unavailable, showing a demo option",
+      "aiVisualization": "Preliminary visualization",
       "demoMode": "Demo mode"
     },
     "analysis": {
@@ -352,10 +352,10 @@
       "furniture": "Furniture",
       "lighting": "Lighting",
       "decor": "Decor",
-      "disclaimer": "This is a preliminary estimate based on the AI visualization. The final quote depends on selected factories, materials, logistics, and is reviewed by an Atelier Supply manager."
+      "disclaimer": "This is a preliminary estimate based on the visualization. The final quote depends on selected factories, materials, logistics, and is reviewed by an Atelier Supply manager."
     },
     "limits": {
-      "sessionReached": "The preliminary AI visualization limit for this session has been reached. Please try again later or contact a manager.",
+      "sessionReached": "The preliminary visualization limit for this session has been reached. Please try again later or contact a manager.",
       "regenReached": "Up to 3 variants are available for one concept."
     },
     "lead": {
@@ -416,7 +416,7 @@
     "subtitle": "Eight transparent stages — from the first estimate to furniture placed on site.",
     "steps": [
       { "title": "Project or room", "text": "You share a design project, a specification, or simply photos and room dimensions." },
-      { "title": "Preliminary AI analysis", "text": "The assistant maps the line-up and categories and prepares a budget and timeline guide." },
+      { "title": "Preliminary analysis", "text": "The service maps the line-up and categories and prepares a budget and timeline guide." },
       { "title": "Manager review", "text": "A manager validates the estimate, refines the details and agrees the project scope with you." },
       { "title": "Supplier sourcing", "text": "We request factory pricing and gather samples and alternatives for the project's quality tier." },
       { "title": "Final quote", "text": "Items, prices, timelines and terms are fixed. Commitments begin only at this stage." },
@@ -433,7 +433,7 @@
     "paragraphs": [
       "Atelier Supply grew out of high-end interior procurement practice. The same factories make furniture for global brands and for those who know how to work with them directly. We built that direct access — with inspections, contracts and predictable logistics.",
       "Our team works across Russia and China: buyers, quality engineers, logistics specialists and project managers. We speak the language of factories and the language of design projects — and translate between the two without losses.",
-      "The AI platform makes the first step transparent: a preliminary estimate in minutes instead of weeks of correspondence. The final quote is always confirmed by the person accountable for the result."
+      "The service makes the first step transparent: a preliminary estimate in minutes instead of weeks of correspondence. The final quote is always confirmed by the person accountable for the result."
     ],
     "valuesTitle": "Our principles",
     "values": [
@@ -483,7 +483,7 @@
   "dashboardPage": {
     "meta": { "title": "Dashboard" },
     "title": "Dashboard",
-    "subtitle": "Projects, AI reports and statuses — in one place.",
+    "subtitle": "Projects, reports and statuses — in one place.",
     "newEstimate": "New preliminary estimate",
     "projectsTitle": "My projects",
     "table": { "project": "Project", "status": "Status", "updated": "Updated" },
@@ -492,10 +492,10 @@
       { "name": "Country house, 320 m²", "status": "Supplier sourcing", "tone": "active", "updated": "8 June 2026" },
       { "name": "Japandi living room", "status": "Preliminary estimate", "tone": "new", "updated": "2 June 2026" }
     ],
-    "reportsTitle": "Latest AI reports",
+    "reportsTitle": "Latest reports",
     "reports": [
       { "title": "Preliminary estimate — 142 m² apartment", "type": "Design project", "date": "11 June 2026" },
-      { "title": "AI concept — 24 m² living room", "type": "Empty room", "date": "2 June 2026" }
+      { "title": "Concept — 24 m² living room", "type": "Empty room", "date": "2 June 2026" }
     ],
     "openReport": "Open",
     "note": "An MVP demonstration dashboard: the data is sample-only; authentication arrives later."

@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/base-path";
 /**
  * Mock image provider — the always-available fallback.
  *
@@ -19,13 +20,13 @@ import type {
 
 /** Curated local interiors used as generation stand-ins. */
 const IMG = {
-  hero: "/images/hero-main.webp",
-  modernApartment: "/images/project-modern-apartment.webp",
-  luxuryVilla: "/images/project-luxury-villa.webp",
-  minimalistKitchen: "/images/project-minimalist-kitchen.webp",
-  boutiqueHotel: "/images/project-boutique-hotel-room.webp",
-  officeLounge: "/images/project-office-lounge.webp",
-  warmInterior: "/images/about-image.webp",
+  hero: withBasePath("/images/hero-main.webp"),
+  modernApartment: withBasePath("/images/project-modern-apartment.webp"),
+  luxuryVilla: withBasePath("/images/project-luxury-villa.webp"),
+  minimalistKitchen: withBasePath("/images/project-minimalist-kitchen.webp"),
+  boutiqueHotel: withBasePath("/images/project-boutique-hotel-room.webp"),
+  officeLounge: withBasePath("/images/project-office-lounge.webp"),
+  warmInterior: withBasePath("/images/about-image.webp"),
 } as const;
 
 const ALL_INTERIORS = [

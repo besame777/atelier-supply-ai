@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/base-path";
 import type { Project } from "@/lib/types";
 
 export const projects: Project[] = [
@@ -5,7 +6,7 @@ export const projects: Project[] = [
     slug: "modern-apartment",
     tone: "beige",
     image: {
-      src: "/images/project-modern-apartment.webp",
+      src: withBasePath("/images/project-modern-apartment.webp"),
       alt: { ru: "Гостиная современной квартиры", en: "Modern apartment living room" },
     },
     title: { ru: "Современная квартира", en: "Modern apartment" },
@@ -37,7 +38,7 @@ export const projects: Project[] = [
     slug: "luxury-villa",
     tone: "brown",
     image: {
-      src: "/images/project-luxury-villa.webp",
+      src: withBasePath("/images/project-luxury-villa.webp"),
       alt: { ru: "Интерьер загородной виллы", en: "Country villa interior" },
     },
     title: { ru: "Люксовая вилла", en: "Luxury villa" },
@@ -69,7 +70,7 @@ export const projects: Project[] = [
     slug: "minimalist-kitchen",
     tone: "sand",
     image: {
-      src: "/images/project-minimalist-kitchen.webp",
+      src: withBasePath("/images/project-minimalist-kitchen.webp"),
       alt: { ru: "Минималистичная кухня", en: "Minimalist kitchen" },
     },
     title: { ru: "Минималистичная кухня", en: "Minimalist kitchen" },
@@ -101,7 +102,7 @@ export const projects: Project[] = [
     slug: "boutique-hotel-room",
     tone: "charcoal",
     image: {
-      src: "/images/project-boutique-hotel-room.webp",
+      src: withBasePath("/images/project-boutique-hotel-room.webp"),
       alt: { ru: "Номер бутик-отеля", en: "Boutique hotel room" },
     },
     title: { ru: "Номер бутик-отеля", en: "Boutique hotel room" },
@@ -134,7 +135,7 @@ export const projects: Project[] = [
     tone: "beige",
     image: {
       // No dedicated asset — reuse the warm hero living-room photograph.
-      src: "/images/hero-main.webp",
+      src: withBasePath("/images/hero-main.webp"),
       alt: { ru: "Премиальная гостиная", en: "Premium living room" },
     },
     title: { ru: "Премиальная гостиная", en: "Premium living room" },
@@ -166,7 +167,7 @@ export const projects: Project[] = [
     slug: "office-lounge",
     tone: "sand",
     image: {
-      src: "/images/project-office-lounge.webp",
+      src: withBasePath("/images/project-office-lounge.webp"),
       alt: { ru: "Лаунж-зона офиса", en: "Office lounge area" },
     },
     title: { ru: "Офисный лаунж", en: "Office lounge" },

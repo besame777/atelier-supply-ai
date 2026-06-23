@@ -10,7 +10,7 @@ export function ContactForm({ dict }: { dict: Dictionary["contactsPage"]["form"]
   if (sent) {
     return (
       <div className="flex h-full flex-col items-center justify-center rounded-2xl border border-border bg-surface p-10 text-center">
-        <span className="flex h-14 w-14 items-center justify-center rounded-full bg-accent text-xl text-background">
+        <span className="flex h-14 w-14 items-center justify-center rounded-full bg-accent text-xl text-charcoal">
           ✓
         </span>
         <h3 className="font-display mt-6 text-2xl font-medium">{dict.successTitle}</h3>
@@ -50,7 +50,7 @@ export function ContactForm({ dict }: { dict: Dictionary["contactsPage"]["form"]
       </div>
       <button
         type="submit"
-        className="mt-7 w-full rounded-full bg-foreground px-7 py-3.5 text-sm font-medium text-background transition-colors hover:bg-brown sm:w-auto"
+        className="mt-7 w-full rounded-full btn-gold px-7 py-3.5 text-sm font-medium transition-colors sm:w-auto"
       >
         {dict.submit}
       </button>

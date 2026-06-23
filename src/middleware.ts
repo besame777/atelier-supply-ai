@@ -1,36 +1,59 @@
 import { NextRequest, NextResponse } from "next/server";
-import { defaultLocale, locales } from "@/i18n/config";
 
-function detectLocale(request: NextRequest): string {
-  const header = request.headers.get("accept-language");
-  if (header) {
-    for (const part of header.split(",")) {
-      const code = part.split(";")[0].trim().toLowerCase().split("-")[0];
-      if ((locales as readonly string[]).includes(code)) {
-        return code;
-      }
-    }
-  }
-  return defaultLocale;
-}
+/*
+ * Routing for the AI tool mounted at /app (basePath).
+ * Middleware paths are WITHOUT the basePath (Next strips it first).
+ *
+ * Public URL structure:
+ *   /app        → Russian tool   (internal "/", rewritten to "/ru")
+ *   /app/en     → English tool   (internal "/en")
+ *   /app/ru     → redirect to /app   (Russian is default, never shown)
+ *   /app/{l}/ai → redirect to clean tool URL (legacy)
+ *   marketing sections → the main website (no duplicate marketing here)
+ */
+
+const MAIN_SITE = "https://ateliersupply.ru";
+
+const MAIN_SITE_SECTIONS: Record<string, string> = {
+  services: `${MAIN_SITE}/services.html`,
+  projects: `${MAIN_SITE}/projects.html`,
+  process: `${MAIN_SITE}/process.html`,
+  contacts: `${MAIN_SITE}/contacts.html`,
+  about: `${MAIN_SITE}/`,
+};
 
 export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
+  const { pathname } = request.nextUrl; // without basePath
+  const segs = pathname.split("/").filter(Boolean);
+  const first = segs[0];
+  const hasLocale = first === "ru" || first === "en";
+  const section = hasLocale ? segs[1] : first;
 
-  const hasLocale = locales.some(
-    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
-  );
-  if (hasLocale) {
-    return NextResponse.next();
+  // 1. Marketing sections (with or without a locale prefix) → main website.
+  if (section && MAIN_SITE_SECTIONS[section]) {
+    return NextResponse.redirect(MAIN_SITE_SECTIONS[section]);
   }
 
-  const locale = detectLocale(request);
-  const url = request.nextUrl.clone();
-  url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
-  return NextResponse.redirect(url);
+  // 2. Legacy /{locale}/ai → clean tool URL.
+  if (hasLocale && section === "ai") {
+    const url = request.nextUrl.clone();
+    url.pathname = first === "en" ? "/en" : "/";
+    return NextResponse.redirect(url);
+  }
+
+  // 3. /ru (tool index) → "/"  (Russian is the default, never shown in the URL).
+  //    The bare root "/" is served directly by app/page.tsx (Russian tool).
+  if (first === "ru" && segs.length === 1) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/";
+    return NextResponse.redirect(url);
+  }
+
+  // 4. Everything else (bare root, /en tool, /{locale}/dashboard|admin, …) → render.
+  return NextResponse.next();
 }
 
 export const config = {
-  // Skip Next.js internals, API routes, and static files
+  // Skip Next.js internals, API route handlers, and static files.
   matcher: ["/((?!_next|api|favicon.ico|.*\\..*).*)"],
 };

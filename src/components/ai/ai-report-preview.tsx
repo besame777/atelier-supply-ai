@@ -92,7 +92,7 @@ export function AIReportPreview({
             type="button"
             onClick={onRegenerate}
             disabled={regenerating || regenerateDisabled}
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-foreground px-7 py-3.5 text-sm font-medium text-background transition-colors hover:bg-brown disabled:cursor-not-allowed disabled:opacity-60"
+            className="inline-flex items-center justify-center gap-2 rounded-full btn-gold px-7 py-3.5 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-60"
           >
             <span aria-hidden className={regenerating ? "animate-spin" : ""}>↻</span>
             {regenerating ? roomConceptDict.regenerating : roomConceptDict.regenerate}
@@ -185,7 +185,7 @@ export function AIReportPreview({
       <button
         type="button"
         onClick={onContinue}
-        className="mt-8 w-full rounded-full bg-foreground px-7 py-3.5 text-sm font-medium text-background transition-colors hover:bg-brown sm:w-auto"
+        className="mt-8 w-full rounded-full btn-gold px-7 py-3.5 text-sm font-medium transition-colors sm:w-auto"
       >
         {dict.cta}
       </button>

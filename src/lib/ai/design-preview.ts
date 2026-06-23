@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/base-path";
 /**
  * Procurement-analysis preview image for the design-project flow.
  *
@@ -9,5 +10,5 @@
 
 /** Image used for the design-project procurement-analysis preview block. */
 export function getProcurementPreviewImage(): string {
-  return "/images/services-image.webp";
+  return withBasePath("/images/services-image.webp");
 }

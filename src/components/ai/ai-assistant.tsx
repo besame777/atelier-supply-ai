@@ -17,6 +17,7 @@ import {
   SESSION_USAGE_KEY,
 } from "@/lib/ai/usage-limits";
 import { siteImages } from "@/lib/images";
+import { withBasePath } from "@/lib/base-path";
 import { ScenarioCard } from "@/components/cards/scenario-card";
 import { WizardShell } from "./wizard-shell";
 import { UploadBox } from "./upload-box";
@@ -30,8 +31,10 @@ type Scenario = "project" | "room";
 /** Simulated analysis duration per status line, ms. */
 const LINE_DELAY = 900;
 
-const GENERATE_URL = "/api/ai/design/generate";
-const REGENERATE_URL = "/api/ai/design/regenerate";
+// Route Handlers live under the app's basePath (/app/api/...). fetch() is not
+// auto-prefixed by Next.js, so prefix via the shared helper.
+const GENERATE_URL = withBasePath("/api/ai/design/generate");
+const REGENERATE_URL = withBasePath("/api/ai/design/regenerate");
 
 export function AIAssistant({
   locale,
@@ -325,7 +328,7 @@ export function AIAssistant({
             <button
               type="button"
               onClick={() => setStep(1)}
-              className="rounded-full bg-foreground px-7 py-3.5 text-sm font-medium text-background transition-colors hover:bg-brown"
+              className="rounded-full btn-gold px-7 py-3.5 text-sm font-medium transition-colors"
             >
               {scenario === "room" && photoFile ? dict.upload.continueRedesign : dict.upload.continue}
             </button>
@@ -396,7 +399,7 @@ export function AIAssistant({
               >
                 <span
                   className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] ${
-                    i < analyzingLine ? "bg-accent text-background" : "border border-border text-muted"
+                    i < analyzingLine ? "bg-accent text-charcoal" : "border border-border text-muted"
                   }`}
                 >
                   {i < analyzingLine ? "✓" : ""}
@@ -424,7 +427,7 @@ export function AIAssistant({
           <button
             type="button"
             onClick={retryGeneration}
-            className="mt-8 rounded-full bg-foreground px-7 py-3 text-sm font-medium text-background transition-colors hover:bg-brown"
+            className="mt-8 rounded-full btn-gold px-7 py-3 text-sm font-medium transition-colors"
           >
             {dict.generation.retry}
           </button>
@@ -460,7 +463,7 @@ export function AIAssistant({
 
       {step === 3 && leadDone && (
         <div className="py-10 text-center">
-          <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent text-xl text-background">
+          <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-accent text-xl text-charcoal">
             ✓
           </span>
           <h3 className="font-display mt-6 text-2xl font-medium tracking-tight">

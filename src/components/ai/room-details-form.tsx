@@ -161,7 +161,7 @@ export function RoomDetailsForm({
       <button
         type="submit"
         disabled={disabled}
-        className="mt-8 w-full rounded-full bg-foreground px-7 py-3.5 text-sm font-medium text-background transition-colors hover:bg-brown disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
+        className="mt-8 w-full rounded-full btn-gold px-7 py-3.5 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
       >
         {dict.submit}
       </button>

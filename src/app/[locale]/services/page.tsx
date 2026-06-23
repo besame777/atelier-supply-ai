@@ -46,11 +46,11 @@ export default async function ServicesPage({ params }: Props) {
         ))}
       </div>
 
-      <div className="mt-16 rounded-3xl bg-charcoal px-8 py-14 text-center text-background sm:px-12">
+      <div className="mt-16 rounded-3xl bg-charcoal px-8 py-14 text-center text-on-dark sm:px-12">
         <h2 className="font-display mx-auto max-w-xl text-2xl font-medium tracking-tight text-balance sm:text-3xl">
           {t.ctaTitle}
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-background/60">{t.ctaText}</p>
+        <p className="mx-auto mt-4 max-w-xl text-on-dark/60">{t.ctaText}</p>
         <div className="mt-8">
           <CTAButton href={`/${locale}/ai`} variant="light">
             {t.cta}

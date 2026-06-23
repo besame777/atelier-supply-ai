@@ -8,7 +8,10 @@ type Props = { params: Promise<{ locale: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale: raw } = await params;
   const dict = await getDictionary(toLocale(raw));
-  return { title: dict.dashboardPage.meta.title };
+  return {
+    title: dict.dashboardPage.meta.title,
+    robots: { index: false, follow: false },
+  };
 }
 
 export default async function DashboardPage({ params }: Props) {

@@ -21,7 +21,7 @@ export function DashboardShell({
         </div>
         <Link
           href={`/${locale}/ai`}
-          className="inline-flex shrink-0 items-center justify-center rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-colors hover:bg-brown"
+          className="inline-flex shrink-0 items-center justify-center rounded-full btn-gold px-6 py-3 text-sm font-medium transition-colors"
         >
           {dict.newEstimate}
         </Link>

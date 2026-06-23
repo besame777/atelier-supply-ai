@@ -1,26 +1,28 @@
 @import "tailwindcss";
 
 /*
- * Atelier Supply brand palette — warm, architectural, editorial.
- * Tactile sand base, layered warm surfaces, deep browns, muted gold.
- * No sterile white, no SaaS blue/purple, no nightclub dark.
+ * Atelier Supply — DARK premium identity (matches the main site).
+ * Near-black warm base, warm-white text, soft-gold accent.
+ * Tokens keep their semantic roles so token-based components re-theme
+ * automatically; "dark section" helpers (charcoal/brown) stay dark with
+ * light text via --on-dark.
  */
 :root {
-  --background: #e8ded1; /* main background — warm sand */
-  --surface: #f4eee6; /* card background */
-  --surface-soft: #efe5da; /* soft elevated / nested card */
-  --beige: #d8c8b8; /* secondary background */
-  --sand: #d8c8b8; /* deeper tonal block */
-  --foreground: #17130f; /* main text */
-  --charcoal: #17130f; /* dark section background */
-  --brown: #2a1a12; /* deep brown */
-  --bronze: #7a4e2d; /* accent brown */
-  --muted: #5f564e; /* secondary text */
-  --accent: #a77d4f; /* muted gold */
-  --accent-soft: #c9a87c; /* gold on dark backgrounds */
-  --border: #c9b8a6;
-  --on-dark: #f6f1ea; /* text on dark sections */
-  --header: rgba(232, 222, 209, 0.86); /* sticky header — blends with background */
+  --background: #0a0a0b;       /* main background — near-black (main site --bg) */
+  --surface: #141317;          /* elevated card on dark */
+  --surface-soft: #1a181e;     /* nested / softer card */
+  --beige: #1c1813;            /* warm dark tonal block (was secondary light) */
+  --sand: #1c1813;             /* deeper warm tonal block */
+  --foreground: #f4f2ee;       /* main text — warm white (main site --fg) */
+  --charcoal: #060607;         /* deepest panel — dark sections / footer */
+  --brown: #241a12;            /* deep warm-brown panel */
+  --bronze: #d6b27c;           /* active/accent gold (was accent brown) */
+  --muted: #9c968e;            /* secondary text (main site --muted) */
+  --accent: #d6b27c;           /* soft gold accent (main site --accent) */
+  --accent-soft: #e7c690;      /* lighter gold — labels / accents on dark */
+  --border: rgba(255, 255, 255, 0.10); /* glass hairline (main site --glass-brd) */
+  --on-dark: #f4f2ee;          /* light text on dark sections */
+  --header: rgba(10, 10, 11, 0.72); /* sticky header glass (main site --nav bg) */
 }
 
 @theme inline {
@@ -39,17 +41,57 @@
   --color-border: var(--border);
   --color-on-dark: var(--on-dark);
   --color-header: var(--header);
-  --font-sans: var(--font-inter);
-  --font-display: var(--font-playfair);
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-cormorant);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
   background: var(--accent-soft);
-  color: var(--charcoal);
+  color: #14110b;
+}
+
+/* Subtle premium scrollbar to match the dark theme */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(214, 178, 124, 0.32) transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(214, 178, 124, 0.28);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(214, 178, 124, 0.45);
+  background-clip: content-box;
+}
+
+/* Reusable primary button — main-site gold gradient (dark text on gold). */
+@layer components {
+  .btn-gold {
+    background-image: linear-gradient(120deg, var(--accent), #e7c690 55%, var(--accent));
+    color: #14110b;
+    box-shadow: 0 16px 36px rgba(214, 178, 124, 0.22);
+    transition: transform 0.18s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+                filter 0.25s ease;
+  }
+  .btn-gold:hover {
+    filter: brightness(1.04);
+    box-shadow: 0 18px 42px rgba(214, 178, 124, 0.3);
+  }
+  .btn-gold:active {
+    transform: scale(0.98);
+  }
 }

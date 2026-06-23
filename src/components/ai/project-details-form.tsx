@@ -121,7 +121,7 @@ export function ProjectDetailsForm({
 
       <button
         type="submit"
-        className="mt-8 w-full rounded-full bg-foreground px-7 py-3.5 text-sm font-medium text-background transition-colors hover:bg-brown sm:w-auto"
+        className="mt-8 w-full rounded-full btn-gold px-7 py-3.5 text-sm font-medium transition-colors sm:w-auto"
       >
         {dict.submit}
       </button>
