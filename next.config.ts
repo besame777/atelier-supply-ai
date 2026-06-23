@@ -9,6 +9,7 @@ const BASE_PATH = "/app";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  output: "standalone", // minimal self-contained server for Docker
   basePath: BASE_PATH,
   env: {
     NEXT_PUBLIC_BASE_PATH: BASE_PATH,
